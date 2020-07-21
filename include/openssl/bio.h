@@ -437,10 +437,10 @@ struct bio_dgram_sctp_prinfo {
 #  define BIO_get_bind_mode(b)    BIO_ctrl(b,BIO_C_GET_BIND_MODE,0,NULL)
 
 /* BIO_s_accept() and BIO_s_connect() */
-#  define BIO_do_connect(b)       BIO_do_handshake(b)
 #  define BIO_do_accept(b)        BIO_do_handshake(b)
 # endif /* OPENSSL_NO_SOCK */
 
+# define BIO_do_connect(b)       BIO_do_handshake(b)
 # define BIO_do_handshake(b)     BIO_ctrl(b,BIO_C_DO_STATE_MACHINE,0,NULL)
 
 /* BIO_s_datagram(), BIO_s_fd(), BIO_s_socket(), BIO_s_accept() and BIO_s_connect() */
