@@ -792,6 +792,8 @@ ENDIF
   INCLUDE[ssl_ctx_test]=../include ../apps/include
   DEPEND[ssl_ctx_test]=../libcrypto ../libssl libtestutil.a
 
+IF[{- !$disabled{tests} -}]
+
 {-
    use File::Spec::Functions;
    use File::Basename;
@@ -827,4 +829,6 @@ _____
   DEPEND[buildtest_cc_$name]=../libssl ../libcrypto
 _____
    }
+
 -}
+  ENDIF
