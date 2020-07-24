@@ -1,5 +1,5 @@
 sm2_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'sm2_crypt.c',
 'sm2_err.c',

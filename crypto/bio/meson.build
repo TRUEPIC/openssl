@@ -1,5 +1,5 @@
 bio_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'b_addr.c',
 'b_dump.c',

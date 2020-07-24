@@ -1,5 +1,5 @@
 conf_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'conf_api.c',
 'conf_def.c',

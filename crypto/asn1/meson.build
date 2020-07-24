@@ -1,5 +1,5 @@
 asn1_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'a_bitstr.c',
 'a_d2i_fp.c',

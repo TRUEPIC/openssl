@@ -1,5 +1,5 @@
 x509_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'by_dir.c',
 'by_file.c',

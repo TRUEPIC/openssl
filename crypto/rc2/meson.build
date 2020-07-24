@@ -1,5 +1,5 @@
 rc2_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'rc2_cbc.c',
 'rc2cfb64.c',

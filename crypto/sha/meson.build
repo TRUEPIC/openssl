@@ -1,5 +1,5 @@
 sha_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'keccak1600.c',
 'sha1dgst.c',

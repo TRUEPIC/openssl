@@ -1,5 +1,5 @@
 cms_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'cms_asn1.c',
 'cms_att.c',

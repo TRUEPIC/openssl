@@ -1,5 +1,5 @@
 bn_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'bn_add.c',
 'bn_asm.c',

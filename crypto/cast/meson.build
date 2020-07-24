@@ -1,5 +1,5 @@
 cast_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'c_cfb64.c',
 'c_ecb.c',

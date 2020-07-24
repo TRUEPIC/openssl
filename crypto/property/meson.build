@@ -1,5 +1,5 @@
 property_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'defn_cache.c',
 'property.c',

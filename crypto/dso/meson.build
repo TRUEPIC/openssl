@@ -1,5 +1,5 @@
 dso_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'dso_dl.c',
 'dso_dlfcn.c',

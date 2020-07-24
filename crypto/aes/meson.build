@@ -1,5 +1,5 @@
 aes_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'aes_cbc.c',
 'aes_cfb.c',

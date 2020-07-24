@@ -1,5 +1,5 @@
 rand_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'drbg_lib.c',
 'rand_deprecated.c',

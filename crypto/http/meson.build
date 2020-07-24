@@ -1,5 +1,5 @@
 http_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'http_client.c',
 'http_err.c',

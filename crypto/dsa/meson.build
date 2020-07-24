@@ -1,5 +1,5 @@
 dsa_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'dsa_ameth.c',
 'dsa_asn1.c',

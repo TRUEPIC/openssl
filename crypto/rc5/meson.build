@@ -1,5 +1,5 @@
 rc5_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'rc5cfb64.c',
 'rc5_ecb.c',

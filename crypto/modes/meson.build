@@ -1,5 +1,5 @@
 modes_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'cbc128.c',
 'ccm128.c',

@@ -1,5 +1,5 @@
 ocsp_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'ocsp_asn.c',
 'ocsp_cl.c',

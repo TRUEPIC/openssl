@@ -1,5 +1,5 @@
 dh_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'dh_ameth.c',
 'dh_asn1.c',

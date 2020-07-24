@@ -1,5 +1,5 @@
 idea_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'i_cbc.c',
 'i_cfb64.c',

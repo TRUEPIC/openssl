@@ -1,5 +1,5 @@
 ts_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'ts_asn1.c',
 'ts_conf.c',

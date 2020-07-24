@@ -1,5 +1,5 @@
 seed_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'seed.c',
 'seed_cbc.c',

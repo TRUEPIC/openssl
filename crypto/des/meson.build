@@ -1,5 +1,5 @@
 des_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'cbc_cksm.c',
 'cbc_enc.c',

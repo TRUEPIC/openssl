@@ -1,5 +1,5 @@
 ffc_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'ffc_backend.c',
 'ffc_key_generate.c',

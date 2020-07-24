@@ -1,5 +1,5 @@
 siphash_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'siphash_ameth.c',
 'siphash.c',

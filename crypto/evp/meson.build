@@ -1,5 +1,5 @@
 evp_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'bio_b64.c',
 'bio_enc.c',

@@ -1,5 +1,5 @@
 pkcs12_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'p12_add.c',
 'p12_asn.c',

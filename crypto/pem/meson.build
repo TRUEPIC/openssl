@@ -1,5 +1,5 @@
 pem_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'pem_all.c',
 'pem_err.c',

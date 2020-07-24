@@ -1,5 +1,5 @@
 ec_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'curve25519.c',
 'ec2_oct.c',

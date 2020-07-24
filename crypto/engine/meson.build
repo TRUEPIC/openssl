@@ -1,5 +1,5 @@
 engine_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'eng_all.c',
 'eng_cnf.c',

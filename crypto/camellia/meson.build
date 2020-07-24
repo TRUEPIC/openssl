@@ -1,5 +1,5 @@
 camellia_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'camellia.c',
 'cmll_cbc.c',

@@ -1,5 +1,5 @@
 ess_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'ess_asn1.c',
 'ess_err.c',

@@ -1,5 +1,5 @@
 serializer_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'serializer_err.c',
 'serializer_lib.c',

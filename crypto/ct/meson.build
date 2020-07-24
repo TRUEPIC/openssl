@@ -1,5 +1,5 @@
 ct_dep = declare_dependency(
-include_directories: '.'
+include_directories: '.',
 sources: [
 'ct_b64.c',
 'ct_err.c',
