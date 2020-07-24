@@ -1,0 +1,114 @@
+subdir('aes')
+subdir('aria')
+subdir('asn1')
+subdir('async')
+subdir('bf')
+subdir('bio')
+subdir('bn')
+subdir('buffer')
+subdir('chacha')
+subdir('cmac')
+subdir('cmp')
+subdir('cms')
+subdir('conf')
+subdir('crmf')
+subdir('ct')
+subdir('dh')
+subdir('dso')
+subdir('ec')
+subdir('err')
+subdir('ess')
+subdir('evp')
+subdir('ffc')
+subdir('hmac')
+subdir('http')
+subdir('kdf')
+subdir('lhash')
+subdir('md5')
+subdir('modes')
+subdir('objects')
+subdir('ocsp')
+subdir('pem')
+subdir('pkcs12')
+subdir('pkcs7')
+subdir('poly1305')
+subdir('property')
+subdir('rand')
+subdir('ripemd')
+subdir('rsa')
+subdir('seed')
+subdir('serializer')
+subdir('sha')
+subdir('siphash')
+subdir('sm2')
+subdir('sm3')
+subdir('sm4')
+subdir('srp')
+subdir('stack')
+subdir('store')
+subdir('ts')
+subdir('txt_db')
+subdir('ui')
+subdir('whrlpool')
+subdir('x509')
+
+crypto_dep = declare_dependency(
+  sources: [
+  ],
+  include_directories: '.',
+  dependencies: [
+  aes_dep,
+  aria_dep,
+  asn1_dep,
+  async_dep,
+  bf_dep,
+  bio_dep,
+  bn_dep,
+  buffer_dep,
+  chacha_dep,
+  cmac_dep,
+  cmp_dep,
+  cms_dep,
+  conf_dep,
+  crmf_dep,
+  ct_dep,
+  dh_dep,
+  dso_dep,
+  ec_dep,
+  err_dep,
+  ess_dep,
+  evp_dep,
+  ffc_dep,
+  hmac_dep,
+  http_dep,
+  kdf_dep,
+  lhash_dep,
+  md5_dep,
+  modes_dep,
+  objects_dep,
+  ocsp_dep,
+  pem_dep,
+  pkcs12_dep,
+  pkcs7_dep,
+  poly1305_dep,
+  property_dep,
+  rand_dep,
+  ripemd_dep,
+  rsa_dep,
+  seed_dep,
+  serializer_dep,
+  sha_dep,
+  siphash_dep,
+  sm2_dep,
+  sm3_dep,
+  sm4_dep,
+  srp_dep,
+  stack_dep,
+  store_dep,
+  ts_dep,
+  txt_db_dep,
+  ui_dep,
+  whrlpool_dep,
+  x509_dep,
+  ],
+)
