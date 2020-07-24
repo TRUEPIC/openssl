@@ -1,4 +1,4 @@
-./comp_dep = declare_dependency(
+comp_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'comp_err.c',

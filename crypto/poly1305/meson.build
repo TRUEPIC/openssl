@@ -1,4 +1,4 @@
-./poly1305_dep = declare_dependency(
+poly1305_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'poly1305_ameth.c',

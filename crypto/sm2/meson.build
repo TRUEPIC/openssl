@@ -1,4 +1,4 @@
-./sm2_dep = declare_dependency(
+sm2_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'sm2_crypt.c',

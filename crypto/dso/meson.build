@@ -1,4 +1,4 @@
-./dso_dep = declare_dependency(
+dso_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'dso_dl.c',

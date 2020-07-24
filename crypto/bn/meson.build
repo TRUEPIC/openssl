@@ -1,4 +1,4 @@
-./bn_dep = declare_dependency(
+bn_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'bn_add.c',

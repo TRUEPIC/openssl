@@ -1,4 +1,4 @@
-./sha_dep = declare_dependency(
+sha_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'keccak1600.c',

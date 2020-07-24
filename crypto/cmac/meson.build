@@ -1,4 +1,4 @@
-./cmac_dep = declare_dependency(
+cmac_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'cmac.c',

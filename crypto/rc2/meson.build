@@ -1,4 +1,4 @@
-./rc2_dep = declare_dependency(
+rc2_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'rc2_cbc.c',

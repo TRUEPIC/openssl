@@ -1,4 +1,4 @@
-./rsa_dep = declare_dependency(
+rsa_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'rsa_acvp_test_params.c',

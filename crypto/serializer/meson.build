@@ -1,4 +1,4 @@
-./serializer_dep = declare_dependency(
+serializer_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'serializer_err.c',

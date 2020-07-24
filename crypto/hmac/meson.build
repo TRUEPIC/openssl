@@ -1,4 +1,4 @@
-./hmac_dep = declare_dependency(
+hmac_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'hmac.c',

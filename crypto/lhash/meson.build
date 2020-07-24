@@ -1,4 +1,4 @@
-./lhash_dep = declare_dependency(
+lhash_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'lhash.c',

@@ -1,4 +1,4 @@
-./ffc_dep = declare_dependency(
+ffc_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'ffc_backend.c',

@@ -1,4 +1,4 @@
-./cast_dep = declare_dependency(
+cast_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'c_cfb64.c',

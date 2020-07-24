@@ -1,4 +1,4 @@
-./ts_dep = declare_dependency(
+ts_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'ts_asn1.c',

@@ -1,4 +1,4 @@
-./conf_dep = declare_dependency(
+conf_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'conf_api.c',

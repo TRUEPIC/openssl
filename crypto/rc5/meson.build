@@ -1,4 +1,4 @@
-./rc5_dep = declare_dependency(
+rc5_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'rc5cfb64.c',

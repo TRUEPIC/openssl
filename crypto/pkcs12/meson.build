@@ -1,4 +1,4 @@
-./pkcs12_dep = declare_dependency(
+pkcs12_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'p12_add.c',

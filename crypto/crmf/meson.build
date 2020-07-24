@@ -1,4 +1,4 @@
-./crmf_dep = declare_dependency(
+crmf_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'crmf_asn.c',

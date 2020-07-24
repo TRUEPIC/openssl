@@ -1,4 +1,4 @@
-./ess_dep = declare_dependency(
+ess_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'ess_asn1.c',

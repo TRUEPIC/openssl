@@ -1,4 +1,4 @@
-./des_dep = declare_dependency(
+des_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'cbc_cksm.c',

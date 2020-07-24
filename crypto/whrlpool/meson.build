@@ -1,4 +1,4 @@
-./whrlpool_dep = declare_dependency(
+whrlpool_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'wp_block.c',

@@ -1,4 +1,4 @@
-./cms_dep = declare_dependency(
+cms_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'cms_asn1.c',

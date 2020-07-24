@@ -1,4 +1,4 @@
-./ui_dep = declare_dependency(
+ui_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'ui_err.c',

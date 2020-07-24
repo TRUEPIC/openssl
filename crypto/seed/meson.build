@@ -1,4 +1,4 @@
-./seed_dep = declare_dependency(
+seed_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'seed.c',

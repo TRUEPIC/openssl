@@ -1,4 +1,4 @@
-./pem_dep = declare_dependency(
+pem_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'pem_all.c',

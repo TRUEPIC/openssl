@@ -1,4 +1,4 @@
-./cmp_dep = declare_dependency(
+cmp_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'cmp_asn.c',

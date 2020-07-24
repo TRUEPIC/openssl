@@ -1,4 +1,4 @@
-./dsa_dep = declare_dependency(
+dsa_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'dsa_ameth.c',

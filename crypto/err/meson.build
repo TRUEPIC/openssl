@@ -1,4 +1,4 @@
-./err_dep = declare_dependency(
+err_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'err_all.c',

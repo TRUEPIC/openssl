@@ -1,4 +1,4 @@
-./camellia_dep = declare_dependency(
+camellia_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'camellia.c',

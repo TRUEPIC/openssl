@@ -1,4 +1,4 @@
-./engine_dep = declare_dependency(
+engine_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'eng_all.c',

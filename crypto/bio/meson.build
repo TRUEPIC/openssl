@@ -1,4 +1,4 @@
-./bio_dep = declare_dependency(
+bio_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'b_addr.c',

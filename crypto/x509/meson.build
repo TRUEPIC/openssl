@@ -1,4 +1,4 @@
-./x509_dep = declare_dependency(
+x509_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'by_dir.c',

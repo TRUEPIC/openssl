@@ -1,4 +1,4 @@
-./asn1_dep = declare_dependency(
+asn1_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'a_bitstr.c',

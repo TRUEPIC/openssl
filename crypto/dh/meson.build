@@ -1,4 +1,4 @@
-./dh_dep = declare_dependency(
+dh_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'dh_ameth.c',

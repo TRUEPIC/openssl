@@ -1,4 +1,4 @@
-./ct_dep = declare_dependency(
+ct_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'ct_b64.c',

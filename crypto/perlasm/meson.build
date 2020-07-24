@@ -1,4 +1,4 @@
-./perlasm_dep = declare_dependency(
+perlasm_dep = declare_dependency(
 include_directories: '.'
 sources: [
 '*.c',

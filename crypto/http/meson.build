@@ -1,4 +1,4 @@
-./http_dep = declare_dependency(
+http_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'http_client.c',

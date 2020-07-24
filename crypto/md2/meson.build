@@ -1,4 +1,4 @@
-./md2_dep = declare_dependency(
+md2_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'md2_dgst.c',

@@ -1,4 +1,4 @@
-./store_dep = declare_dependency(
+store_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'loader_file.c',

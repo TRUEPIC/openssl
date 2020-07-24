@@ -1,4 +1,4 @@
-./srp_dep = declare_dependency(
+srp_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'srp_lib.c',

@@ -1,4 +1,4 @@
-./ripemd_dep = declare_dependency(
+ripemd_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'rmd_dgst.c',

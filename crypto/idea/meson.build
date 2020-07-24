@@ -1,4 +1,4 @@
-./idea_dep = declare_dependency(
+idea_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'i_cbc.c',

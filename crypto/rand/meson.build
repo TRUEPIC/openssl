@@ -1,4 +1,4 @@
-./rand_dep = declare_dependency(
+rand_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'drbg_lib.c',

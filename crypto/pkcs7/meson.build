@@ -1,4 +1,4 @@
-./pkcs7_dep = declare_dependency(
+pkcs7_dep = declare_dependency(
 include_directories: '.'
 sources: [
 'bio_pk7.c',
