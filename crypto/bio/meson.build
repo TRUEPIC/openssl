@@ -1,0 +1,28 @@
+./bio_dep = declare_dependency(
+include_directories: '.'
+sources: [
+'b_addr.c',
+'b_dump.c',
+'bf_buff.c',
+'bf_lbuf.c',
+'bf_nbio.c',
+'bf_null.c',
+'bf_prefix.c',
+'bio_cb.c',
+'bio_err.c',
+'bio_lib.c',
+'bio_meth.c',
+'b_print.c',
+'b_sock2.c',
+'b_sock.c',
+'bss_acpt.c',
+'bss_bio.c',
+'bss_conn.c',
+'bss_dgram.c',
+'bss_fd.c',
+'bss_file.c',
+'bss_log.c',
+'bss_mem.c',
+'bss_null.c',
+'bss_sock.c',
+])

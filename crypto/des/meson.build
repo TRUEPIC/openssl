@@ -1,0 +1,24 @@
+./des_dep = declare_dependency(
+include_directories: '.'
+sources: [
+'cbc_cksm.c',
+'cbc_enc.c',
+'cfb64ede.c',
+'cfb64enc.c',
+'cfb_enc.c',
+'des_enc.c',
+'ecb3_enc.c',
+'ecb_enc.c',
+'fcrypt_b.c',
+'fcrypt.c',
+'ncbc_enc.c',
+'ofb64ede.c',
+'ofb64enc.c',
+'ofb_enc.c',
+'pcbc_enc.c',
+'qud_cksm.c',
+'rand_key.c',
+'set_key.c',
+'str2key.c',
+'xcbc_enc.c',
+])
